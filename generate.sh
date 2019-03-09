@@ -2,7 +2,11 @@
 # usage:
 # $0: run normal
 # $0 killhttp: stop web server
-[ $1 = killhttp ] && kill $(cat /tmp/flash.pid) && rm /tmp/flash.pid && exit
+if [ $1 = killhttp ]; then
+  kill $(cat /tmp/flash.pid)
+  rm /tmp/flash.pid
+  exit 0
+fi
 cd /tmp
 git clone https://github.com/catcoin10/FlashWiki
 cd FlashWiki
