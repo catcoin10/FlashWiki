@@ -1,0 +1,6 @@
+This notice is not just about forking, it is also a disclaimer.
+
+This repository is not currently open for direct editing. I am considering adding an email edit feature where you can send me
+plain text and then I will convert the text to plain HTML and then upload it to GitHub. (the text will say that there was an
+email suggestion if this feature ever gets implemented.) But, I am allowing you to fork this repository and make your own at
+any time. If you choose to fork this repository, please update every once in a while with my content if possible.
